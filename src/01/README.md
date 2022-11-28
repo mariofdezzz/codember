@@ -1,7 +1,5 @@
 # Reto 1: ¡Arregla Twitter!
 
-## Problema
-
 Twitter ha sido comprado y quieren eliminar los bots. Te han pedido ayuda para detectar el número de usuarios en su base de datos que tienen datos corruptos.
 
 La base de datos es muy antigua y está en un formato extraño. Los perfiles requieren tener los siguientes datos:
