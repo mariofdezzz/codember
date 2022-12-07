@@ -28,6 +28,10 @@ Deno.test('Challenge 01', async ({ step }) => {
 		assertEquals(isValidUser(getUser(user04)), true);
 	});
 
+	await step('Solve withot users', () => {
+		assertEquals(solve(''), '0@');
+	});
+
 	await step('Solve users joined', () => {
 		const input = [user01, user02, user03, user04].join('\n\n');
 
