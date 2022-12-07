@@ -1,6 +1,6 @@
 # Codember
 
-![coverage](https://img.shields.io/static/v1?label=coverage&message=93%&color=yellowgreen)
+![coverage](https://img.shields.io/static/v1?label=coverage&message=100%&color=brightgreen)
 
 ## Commands
 
