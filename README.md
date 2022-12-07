@@ -1,6 +1,6 @@
 # Codember
 
-![coverage](https://img.shields.io/badge/🧪%20cov-93.75%-success)
+![coverage](https://img.shields.io/static/v1?label=🧪%20coverage&message=93.75%&color=success)
 
 ## Commands
 
