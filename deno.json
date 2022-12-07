@@ -1,9 +1,12 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "coverage": "deno test --coverage=cov && deno coverage --lcov cov | deno run scripts/coverage.ts && rm -rf cov"
+    "coverage": "deno test --coverage=cov 1>/dev/null && deno coverage --lcov cov | deno run --allow-read --allow-write scripts/coverage.ts; rm -rf cov"
   },
   "fmt": {
+    "files": {
+      "exclude": ["./**/*.template"]
+    },
     "options": {
       "useTabs": true,
       "indentWidth": 2,

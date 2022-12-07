@@ -1,0 +1,12 @@
+# Codember
+
+![coverage](https://img.shields.io/badge/🧪%20cov-{{coverage}}-success)
+
+## Commands
+
+### 🧪 Test
+
+```sh
+deno test
+deno test src/01
+```
