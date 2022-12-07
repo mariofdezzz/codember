@@ -1,7 +1,8 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "coverage": "deno test --coverage=cov 1>/dev/null && deno coverage --lcov cov | deno run --allow-read --allow-write scripts/coverage.ts; rm -rf cov"
+    "readme": "deno test --coverage=cov 1>/dev/null && deno coverage --lcov cov | deno run --allow-read --allow-write scripts/coverage.ts; rm -rf cov",
+    "coverage": "deno test --coverage=cov 1>/dev/null && deno coverage cov; rm -rf cov"
   },
   "fmt": {
     "files": {
