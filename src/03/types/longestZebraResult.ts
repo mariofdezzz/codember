@@ -1,4 +1,4 @@
 export interface LongestZebraResult {
-  count: number;
-  latestColor: string;
+	count: number;
+	latestColor: string;
 }

@@ -1,5 +1,5 @@
-import { solve } from "./index.ts";
+import { solve } from './index.ts';
 
 console.log(
-  solve(11098, 98123)
-)
+	solve(11098, 98123),
+);

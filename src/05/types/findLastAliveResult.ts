@@ -1,4 +1,4 @@
-export interface FindLastAliveResult { 
-  value: string
-  index: number 
+export interface FindLastAliveResult {
+	value: string;
+	index: number;
 }
