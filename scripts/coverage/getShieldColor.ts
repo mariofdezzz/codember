@@ -11,7 +11,7 @@ export function getShieldColor(coverage: number): ShieldColor {
 		return ShieldColor.yellow;
 	}
 	if (coverage < 100) {
-		return ShieldColor.green;
+		return ShieldColor.yellowgreen;
 	}
 	return ShieldColor.brightgreen;
 }

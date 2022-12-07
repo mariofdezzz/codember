@@ -3,7 +3,7 @@ import { STDIN } from './std/stdin.ts';
 import { render } from 'mustache';
 import { dirname, fromFileUrl, join as pathJoin } from 'path';
 import * as Colors from 'colors';
-import { getShieldColor } from './coverage/color.ts';
+import { getShieldColor } from './coverage/getShieldColor.ts';
 
 // Code coverage
 const { LF, LH } = LCOV.parse(await STDIN.read());
