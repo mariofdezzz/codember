@@ -1,7 +1,7 @@
 {
   "importMap": "import_map.json",
   "tasks": {
-    "coverage": "deno coverage --lcov cov | deno run scripts/coverage.ts"
+    "coverage": "deno test --coverage=cov && deno coverage --lcov cov | deno run scripts/coverage.ts && rm -rf cov"
   },
   "fmt": {
     "options": {
