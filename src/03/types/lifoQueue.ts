@@ -15,9 +15,9 @@ export class LifoQueue<T> implements Queue<T> {
 		return this.items[0];
 	}
 
-	last() {
-		return this.items.at(-1);
-	}
+	// last() {
+	// 	return this.items.at(-1);
+	// }
 
 	length() {
 		return this.items.length;
